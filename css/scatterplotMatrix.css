@@ -1,0 +1,44 @@
+.plot_svg {
+    font: 10px sans-serif;
+    /*padding: 5px;*/
+    margin-left: 65px;
+}
+
+.axis, .frame {
+    shape-rendering: crispEdges;
+}
+
+.axis line {
+    stroke: #ddd;
+}
+
+.axis path {
+    display: none;
+}
+
+.cell text {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.frame {
+    fill: white;
+    /*background-color:rgba(0,0,0,0.5);*/
+    stroke: #aaa;
+
+}
+
+circle {
+    fill-opacity: .7;
+}
+
+circle.hidden {
+    fill: #ccc !important;
+}
+
+
+.extent {
+    fill: #000;
+    fill-opacity: .125;
+    stroke: #fff;
+}

@@ -1,0 +1,90 @@
+body {
+    background-color: #EFEFEF;
+    font: 12px/1.5 Tahoma,'Î¢ÈíÑÅºÚ','Microsoft Yahei',"hiragino sans gb",Helvetica,Arial,"ËÎÌå",'sans-serif';
+}
+#header
+{
+    text-align: center;
+    background-color: #cccccc;
+    font: 25px/1.5 Tahoma,'Î¢ÈíÑÅºÚ','Microsoft Yahei',"hiragino sans gb",Helvetica,Arial,"ËÎÌå",'sans-serif';
+    height:50px;
+    width: auto;
+}
+
+#parallel {
+    background-color: #ffffff;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    height: 520px;
+    margin-left: 0px;
+    margin-top: 2px;
+    width: auto;
+}
+#plotmatrix {
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    height: 700px;
+    margin-left: 0px;
+    margin-top: 2px;
+    width: auto;
+}
+.plotAll {
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    height: 700px;
+    margin-left: -1px;
+    margin-top: -1px;
+    width:50%;
+}
+.plotpart {
+    /*float:left;*/
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    height: 700px;
+    margin-left: 50%;
+    margin-top: -705px;
+    width: 50%;
+}
+#radviz {
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    height: 650px;
+    margin-top: 5px;
+    width:1300px;
+}
+.chooseBox{
+    float:left;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    height: 650px;
+    margin-left:1310px;
+    margin-top: -655px;
+    width:500px;
+}
+
+
+
+/*.chooseBox ul{*/
+    /*margin:0px;*/
+    /*padding:0px;*/
+    /*list-style-type:none;*/
+    /*vertical-align:middle  ;*/
+/*}*/
+
+/*.chooseBox li{*/
+    /*float:left;*/
+    /*display:block;*/
+
+    /*width:100px;*/
+    /*height:20px;*/
+    /*line-height:20px;*/
+
+    /*font-size:14px;*/
+    /*font-weight:bold;*/
+    /*color:#666666;*/
+
+    /*text-decoration:none;*/
+    /*text-align:left;*/
+
+    /*background:#ffffff;*/
+/*}*/

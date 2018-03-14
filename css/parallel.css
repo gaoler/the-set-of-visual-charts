@@ -1,0 +1,58 @@
+svg {
+    font: 10px sans-serif;
+    margin-left: 50px;
+    font: 10px sans-serif;
+    padding: 5px;
+}
+
+.background path {
+    fill: none;
+    stroke: #ccc;
+    stroke-opacity: .4;
+    shape-rendering: crispEdges;
+}
+
+.foreground path {
+    fill: none;
+    stroke: steelblue;
+    stroke-opacity: .7;
+    stroke-width: 1;
+}
+
+.foreground path.hidden {
+
+    stroke: #ccc !important;
+
+}
+
+
+.foreground path.fade {
+    stroke: #000;
+    stroke-opacity: .05;
+}
+.legend {
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.legend line {
+    stroke-width: 2px;
+}
+
+
+.brush .extent {
+    fill-opacity: .3;
+    stroke: #fff;
+    shape-rendering: crispEdges;
+}
+
+.p_axis line, .p_axis path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.p_axis text {
+    text-shadow: 0 1px 0 #fff;
+    cursor: move;
+}
